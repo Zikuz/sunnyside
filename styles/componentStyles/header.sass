@@ -1,6 +1,6 @@
 .header
     background-image: url(/images/desktop/image-header.jpg)
-    min-height: 75vh
+    min-height: 85vh
     width: 100%
     position: relative
     background-size: cover
@@ -16,10 +16,20 @@
         align-items: center
         justify-content: space-around
         font-family: Fraunces
-        letter-spacing: 0.5rem
         font-size: 4rem
+        letter-spacing: 0.5rem
+        @media (max-width: 1000px)
+            font-size: 3.2rem
+        @media (max-width: 850px)
+            font-size: 2rem
 
         a
             padding: 100px 0
             color: #fff
             text-decoration: none
+            img
+                width: 100%
+                @media (max-width: 1000px)
+                    width: 90%
+                @media (max-width: 800px)
+                    width: 80%
