@@ -6,7 +6,9 @@ export default function Header() {
             <Navbar />
             <div className="header-container">
                 <span>WE ARE CREATIVES</span>
-                <img src="/images/icon-arrow-down.svg" alt="arrow" />
+                <a href="#main">
+                    <img src="/images/icon-arrow-down.svg" alt="arrow" />
+                </a>
             </div>
         </div>
     );
