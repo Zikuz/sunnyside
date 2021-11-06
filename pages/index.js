@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './components/Header'
 import Main from './components/Main'
+// import ClientTestimonials from './components/ClientTestimonials'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <Main />
+      {/* <ClientTestimonials /> */}
     </>
   )
 }
