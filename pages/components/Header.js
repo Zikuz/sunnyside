@@ -2,7 +2,7 @@ import Navbar from './Navbar'
 
 export default function Header() {
     return (
-        <div className="header">
+        <div className="header" id="header">
             <Navbar />
             <div className="header-container">
                 <span>WE ARE CREATIVES</span>
