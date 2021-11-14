@@ -1,6 +1,6 @@
 export default function ClientTestimonials() {
     return (
-        <div className="client-testimonials">
+        <div className="client-testimonials" id="client">
             <span className="client-testimonials-header">Client Testimonials</span>
             <div className="client-testimonials-main">
                 <div className="client-testimonials-main-client">
